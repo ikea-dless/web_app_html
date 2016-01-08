@@ -9,7 +9,10 @@ try {
 
 $ary = array(
     // ここにカテゴリを記述していく
-    '菜園道具',
+    '観葉植物',
+    '多肉植物',
+    '肥料',
+    '花工場原液'
 );
 
 $categories = $pdo->prepare("SELECT * FROM categories");
